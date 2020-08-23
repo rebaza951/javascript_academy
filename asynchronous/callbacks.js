@@ -1,14 +1,5 @@
-const users = [
-    { id: 1 , name: 'juan', job_id: 1},
-    { id: 2 , name: 'marco', job_id: 2},
-    { id: 3 , name: 'luis', job_id: 3},
-];
-
-const jobs = [
-    { id: 1, name: 'programmer'},
-    { id: 2, name: 'doctor'},
-    { id: 3, name: 'lawyer'},
-];
+import {jobs, users} from './data';
+//the only way to return the result is throughout a callback
 
 function getUsers(callback) {
     setTimeout(()=>{
@@ -16,13 +7,11 @@ function getUsers(callback) {
     }, 200);
 }
 
-
 function getUser(id, callback) {
     setTimeout(()=>{
         callback(null, users.filter((user)=> user.id === id)[0]);
     }, 200);
 }
-
 
 function getProfesion(id, callback) {
     setTimeout(()=>{
@@ -30,13 +19,14 @@ function getProfesion(id, callback) {
     }, 200);
 }
 
-
+//find juan's profession
+//callback hell
 getUsers((err, users)=>{
     const juan_id = users[0].id;
     getUser(juan_id, (err, user)=>{
         const job_id = user.job_id;
         getProfesion(job_id, (err, profesion)=>{
-
+            console.log("juan is a", profesion.name);
         })
     })
 });
