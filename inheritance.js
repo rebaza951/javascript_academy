@@ -1,10 +1,3 @@
-var i = 0;
-for( i = 0; i < 5; i++){
-    console.log(i);
-    setTimeout(()=>{
-        console.log(i);
-    }, 100);
-}
 
 // Syntactic sugar
 // In computer science, syntactic sugar is syntax within a programming language,
@@ -15,7 +8,7 @@ const obj2 = Object.create(Object.prototype);
 console.log(Object.prototype.isPrototypeOf(obj1));
 console.log(Object.prototype.isPrototypeOf(obj2));
 
-// antipattern
+// Antipattern
 Object.prototype.sayHi = function() {
     console.log('Hi my name is ' + this.name);
 }
