@@ -1,0 +1,9 @@
+pattern: observer
+references:
+  - https://anexsoft.com/patron-observador-con-javascript-observer-pattern?fbclid=IwAR1kgIEA3yByTYBg_BXeXRxRIS3LNkHWHJkGRj5XZI8Glxrx9LNgN00_pls
+  - https://tempusblog.tempuscode.com/patron-observer-en-javascript
+definition: observa los cambios de estado que tenga un sujeto u objeto para notificar a sus suscriptores.
+objective: crear una clase que incremente el valo numerico de su propiedad y cada vez que ese valo sea alterado,
+  vamos a notificar el cambio de estado atraves de la consola.
+steps:
+  - definir la clase observadora.

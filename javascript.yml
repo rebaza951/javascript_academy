@@ -1,0 +1,8 @@
+Language: Javascript
+Paradigm: object-based
+Definition: it's a prototype-based language
+  Datatypes:
+    Object:
+      definition: collection of properties
+      properties:
+        Prototype: every object has a hidden internal property called "Protptype"

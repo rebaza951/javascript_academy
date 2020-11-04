@@ -1,0 +1,14 @@
+title: "SOLID principles"
+definition: "a series of five principles that are apply to OOP."
+authors: "Robert C. Martin and Barbara Liskov."
+advantages:
+  - "extendable code"
+  - "maintainable code"
+  - "reusable code"
+  - "readable code"
+principles:
+  - S: "Single responsibility principle"
+  - O: "Open Closed Principle"
+  - L: "Liskov substitution Principle"
+  - I: "Interface Segregation Principle"
+  - D: "Dependency inversion principle"
