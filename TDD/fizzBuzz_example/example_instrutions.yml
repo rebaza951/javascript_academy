@@ -1,0 +1,24 @@
+steps:
+  setup:
+    - run: npm init -y
+    - run: npm install -D jest
+    - run: npx jest --init
+    - create an script in package.json, test:watch: jest --watchAll
+    - create fizzbuzz.js and fizzbuzz.test.js
+    - check everythins is working fine, create a test with true = true in the test file
+    - run npm test
+  work-flow:
+    - create expected test for, should print 1 if they receive 1
+    - implement logic for this test case
+    - create expected test for, should print fizz if they receive multiple of 3
+    - implement logic for this test case
+    - create expected test for, should print bazz if they receive multiple of 3
+    - implement logic for this test case
+    - create expected test for, should print bazzbazz if they receive multiple of 3 and 5
+    - implement logic for this test case
+    - add implementation to print in console a loop of numbers using the function created
+    - create expected test for, should print 0 if they receive 0
+    - implement logic for this test case
+    - refact the code to make it more readable
+    - create a test to validate if the number receive is he typeof number
+    - implement logic for this test case

@@ -1,0 +1,50 @@
+objective:
+  denifinition: "compare value types and reference type"
+  topics:
+    - "asignacion entre variables"
+    - "pasando funciones como parametros"
+primivites:
+  characteristics:
+    - "use a fixed size of memory"
+  life cycle:
+    create:
+      - "create a primitive value"
+      - "assign the value into the variable"
+    assigment:
+      definition: "assign the value from var1 to var2"
+      flow:
+        - "create a new copy of the value form var1"
+        - "assign the copy into var2"
+        - "var1 and var2 are independent"
+  assigment: "for primitive values javascript will always create a copy of the original one"
+objects:
+  characteristics:
+    - "the size in memory can change in the time, because we can add or delete properties"
+  treatment:
+    functions:
+      type of parameter:
+        primitive: "create a new copy into the function from the parameter"
+        object: "take the reference into the function from the parameter"
+    literal objects:
+      life cycle:
+        creation:
+          definition: "assign an object to a variable"
+          flow:
+            - "define literal object"
+            - "place the object in a free space in HEAP"
+            - "create a memory direction for that object"
+            - "store the memory direction into the variable"
+        assignment:
+          definition: "assign the object stored in var1 into var2"
+          flow:
+            - "take the memory direction from var1"
+            - "assign the direction into var2"
+            - "var1 and var2 are linked by the memory direction"
+        delete: "when there is not variables using a memory direction (reference), javascript will clean this space"
+  storing:
+    heap:
+      in short: "dynamic memory"
+      size: "bigger than space for primitive values"
+      definition: "space in machine's memory where objects are located"
+    reference:
+      definition: "direction/positon in memory which is used to find an object"

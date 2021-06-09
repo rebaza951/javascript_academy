@@ -1,0 +1,6 @@
+source: acamica
+setup:
+  - run: npm init -y
+  - run: npm install --save socket.io
+  - create the server index file
+  - run: node index.js

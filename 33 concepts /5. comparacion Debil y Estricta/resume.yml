@@ -1,0 +1,20 @@
+triple equal:
+  known as: "strict equality, identity operator"
+  symbol: ===
+  primitives:
+    definition: "say if both values has the same TYPE and same VALUE"
+    string: "case sensitive"
+  objects:
+    definition: "we are actually comparing reference between two objects"
+double equal:
+  known as: "loose equality"
+  symbol: ==
+  apply: "type coercion"
+  primitives:
+  objects:
+glosary:
+  objects:
+    examples:
+      - arrays
+      - literal objects
+      - functions

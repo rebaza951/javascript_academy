@@ -1,0 +1,9 @@
+Lexical scoping / static scoping:
+  definition: "each variable's scope is determined by reading the code without running it"
+Function Scope:
+Block Scope:
+scope vs context:
+  scope:
+  context:
+scope types:
+scope chain:

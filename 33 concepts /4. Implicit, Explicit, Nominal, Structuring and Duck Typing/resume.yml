@@ -1,0 +1,89 @@
+topics:
+  - sistema de tipos de javascript:
+      characteristics:
+        - chequeo de tipos estaticos vs dinamicos
+        - severidad de tipos
+        - conversiones de tipos IMPLICITAS vs EXPLICITAS
+        - equivalencia y compatibilidad de tipos
+        - coercion de tipos
+        - duck tipying
+deepen:
+  check type:
+    definition: "is the process to verify and enforce the type restrictions of a language"
+    types:
+      static:
+        type language: "compiled"
+        when: "before compile the code"
+        steps:
+          - "read all the code"
+          - "analyse it to look for any error in type error"
+          - "compile the code"
+      dynamic:
+        type laguange: "interpreted"
+        when: "while the code is running"
+        steps:
+          - "take a line"
+          - "look for any type error"
+          - "run the line"
+          - "continue next line"
+  severidad de tipos:
+    definition: "how demanding is a language to consider that we are making type errors"
+    type typed: "week"
+    type Error:
+      get error:
+        definition: we get TypeError exception
+        examples:
+          - operate a BigInt with other type: 2 + BigInt(20)
+          - call a string as function: var name = "luis"; name();
+          - use a property of undefined: var name; name.length;
+      not get error:
+        definition: we usually will not get error, because of type coersion
+        examples:
+          - [] + {}
+          - [] + "some word"
+          - 2 + true
+          - true + true
+          - (true + true) * 20
+  type conversion:
+    definition: conversion that javascript performs to specify an operation
+    types:
+      implicit:
+        definition: it's know as coersion
+      explicit:
+        definition: force javascript to convert a value into new one
+        result:
+          primitive values:
+            using function:
+              - String()
+              - Number()
+              - Boolean()
+            using operator:
+              to String:
+                - (12).toString()
+                - var valor = true; valor.toString();
+                - 12 + ""
+              to Number:
+                - + "123"
+                - + true
+              to Boolean:
+                negative values:
+                  - !!""
+                  - !!0
+                  - !!null
+                  - !!undefined
+                  - !!NaN
+                positive values:
+                  - !!123
+                  - !!"miguel"
+          objects:
+            - new String()
+            - new Number()
+            - new Boolenan()
+  equivalencia y compatibilidad de tipos:
+    before the code run:
+      tipado Nominal: "two types are compatibles when they have the same name or one is a subtype fo the other (by inheritance)"
+      tipado Estructural: "two types are compatibles when they share the structure that we want"
+    while the code is running:
+      duck typing: "doesn't matter what type has an object, just matter that it has the properties and methods we are going to use"
+
+

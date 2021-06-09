@@ -1,0 +1,4 @@
+steps:
+  - create a test that is going to fail ( RED )
+  - create the minimun necesary so that the test pass ( GREEN )
+  - clean, code smells, etc  ( REFACTORS )

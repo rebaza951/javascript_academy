@@ -1,0 +1,20 @@
+what is node:
+  definition: environment to run js outside browser
+expected knowledge:
+  - callbacks
+  - promises
+  - async-await
+Browser javascript vs Nodejs javascript:
+  browser:
+    - DOM
+    - depends on user's browser
+    - interactive apps
+  nodejs:
+    - no DOM
+    - depends on nodejs' version where it was build
+    - server side apps
+    - use commonjs library for modules
+
+
+ECMA: European Computer Manufactures Association.
+ECMAscript: standares por los cuales se rige javascript.

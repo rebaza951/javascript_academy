@@ -1,0 +1,97 @@
+javascript:
+  bug: "null is an object type"
+  type of data:
+    primitive data type:
+      definition: "data that is not an object and has no methods"
+      total: 7
+      object Wrapper: "It's an object that wrap (just for a moment) a primitive value when we want to call a property or method of itself"
+      characteristics:
+        - basic values (like "hello" or a number 2)
+        - no properties or methods.
+        - inmutables
+      types:
+        object wrappers:
+          - string:
+              definition:
+          - number:
+              size: 64 bites == 8 Bytes
+              limits:
+                definition: range where is safe make numeric operations
+                max: (2 ** 53) + 1 == Number.MAX_SAFE_INTEGER
+                min: -(2 ** 53) + 1 == Number.MIN_SAFE_INTEGER
+              functions:
+                - toFixed
+                - Number.isSafeInteger: verify if a number is inside of limits
+                - Number.MAX_SAFE_INTEGER
+                - Number.MIN_SAFE_INTEGER
+                - Number.MAX_VALUE: bigger number using all the allowed size ( is not secure)
+                - Number.MIN_VALUE: smaller number using all the allowed size ( is not secure)
+                - isFinite: check if a number is finite
+                - isNaN: check if a value is NaN
+              values of Type Number:
+                - 123/0 -> Infinity
+                - "hello"/123 -> NaN
+                - +"123" -> 123
+          - boolean:
+              values evaluated as false:
+                - ""
+                - 0
+                - undefined
+                - NaN
+                - null
+          - symbol (ES 2015):
+              typeof: symbol
+              definition: use for creating fingerprints
+              use: Symbol()
+          - bigInt:
+              definition:
+        no object wrappers:
+          - null:
+              definiton: "absence of value, a variable has nothing, empty"
+              typeof: "object"
+              boolean value: false
+          - undefined:
+              typeof: undefined
+              boolean value: false
+              best practice: let the engine use it for initialize vars, try not use it in our logic.
+              used for:
+                - initiaize a variable
+                - function without return
+                - param in a function not send
+    object:
+      definition: any non-primitive value.
+      examples:
+        - array
+        - function
+        - dates
+        - regular expression
+        - literal object
+        - new String
+        - new Number
+        - new Boolean
+      types:
+        object wrapper:
+        object literal:
+  dynamic typed:
+    definition: "variables (const, let and var) doesn't have any type of data (string, number, function, etc) asociated."
+    examples:
+      - const: "accept string, number, function, object"
+      - let: "accept string, number, function, object"
+      - var: "accept string, number, function or object"
+    other similar:
+      definition: There are other similiar programming languages like javascript, that are dynamic typed.
+      languges:
+        - php: "$number = 1234; $number = "abc";"
+        - ruby
+  week typed:
+    definition:
+      short: "we can operate different types of data"
+      long: we don't need to especify the type of data from a variable, instead the language will infer it by its value
+    coercion of types:
+      definition: "implicit conversion that javascrip's engine does in order to make an operation"
+      example: 2 + "2"
+  duck typing:
+    defintion: is the process of infer what type of data has a variable based on its value.
+    reference:
+      well know phrase: si camina como un pato y grazna como un pato, entonces deb ser un pato.
+      author: james whitcom riley

@@ -1,0 +1,59 @@
+source: https://www.youtube.com/watch?v=RTEnBCek3v0&list=PLMZdod-kiMhLl5y1G14nzXk-PUEs4mmyx&index=10
+index:
+  - 1 project setup
+  - 2 run synchronous test cases - BDD & TDD
+  - 3 hooks in mocha
+  - 4 run asynchronous test cases
+  - 5 retry a failed test case
+  - 6 timeout a test case
+  - 7 chai assertions - BDD & TDD
+  - 8 spy a method
+  - 9 stub a method
+  - 10 mock a method
+  - 11 command line usage
+  - 12 mochawesome report
+setup:
+  - opent terminal, create a projec directory, move into it and run "npm init -y"
+  - run "npm i mocha chai"
+  - create a test folder
+  - change script test key to have value mocha
+  - create a sor folder and create an app.js file
+  - create test.js file
+synchronous tests:
+  - add functions and export the same
+  - write test into test file using "describe" and "it" block - BDD or "context" and "specify"
+  - wrtie tests into test file using "suite" ans "test" block - TDD
+  - run tests using npm test
+hoocks in mocha:
+  test case 1:
+    - open website
+    - login
+    - add to cart
+    - logout
+    - close browser
+  test case 2:
+    - open website
+    - login
+    - check the order status
+    - logout
+    - close browser
+  refact test cases:
+    pre-conditions 1:
+      - openwebsite ( before/suite_setup )
+    pre-condition 2:
+      - login ( before-each/setup )
+    test cases:
+      - case 1: add to cart ( test case )
+      - case 2: check the order status
+    post-condition 1:
+      - logout ( after-each/tear_down )
+    post-condition 2:
+      - close the browser ( after/suite_tear_down )
+run asynchronous test:
+  - add async function and export the same
+  - write test into new test file and in "in" block use async/await, promise and done
+  - run tests using npm test
+retry failed cases:
+  - create configuration file: create ".mocharc.js"
+run tests from command line:
+  -

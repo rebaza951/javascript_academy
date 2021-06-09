@@ -1,0 +1,31 @@
+install typescript:
+  - install node
+  - "npm install -g typescript"
+  - "tsc --version"
+references:
+  - https://codewithmosh.com/p/javascript-basics-for-beginners
+level:
+  basic:
+    - variables
+    - constants
+    - primitives types
+    - dynamic typing
+    - objects
+    - Arrays
+    - Functions
+    - Types of functions
+  Operators:
+    - javascript operators
+    - Arithmetic operators
+    - Assigment operators
+    - Comparison operators
+    - Equality operators
+    - Ternary operator
+    - Logical operators
+    - Logical operators with non-boleean
+    - Bitwise operators
+    - Operator predence
+  how to run:
+    commands:
+      compile: "tsc example_name.ts"
+      run file: "node example_name.js"

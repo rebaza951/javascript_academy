@@ -1,0 +1,107 @@
+types of tests:
+  - unit test:
+      definition: "in the practice of testing small pieces of code, typically individual functions, alone and ISOLATED"
+      contain:
+        - which component is under test
+        - what is the expected behavior
+        - what was the actual result
+        - what is the expected result
+        - how is the behavior repoduced
+      what is not: if your test uses some external resource, like the network or database, it's not a unit test.
+      when to use: all the time
+  - integration test:
+      definition: "ensure that component collaborations work as expected. INTEGRATION TESTS ARE SIMILAR TO UNIT TESTS, but there's one big difference:
+      tests are isolated from other components, integration tests are not."
+      unit vs integration:
+        unit: test for database access code WOULD NOT TALK to a real database.
+        integration: test for database access code WOULD TALK to a real database.
+  - smoke test: "A simple integration test where we just check that when the system under test is invoked, it return normally and does not blow up."
+  - regression test: "A test that was written when a bug was fixed. it ensures that this specific bug will not occur again.
+    It can also be a test made prior to changing an application to make sure the application provides the same outcome."
+  - functional / end-to-end test:
+      definition: "ensure that the app works as expected from the user's perspective. Assertions primarily test the user interface."
+      happy paths: "ensure the critical app capabilities, such as user logins, signups, purchase work flows, and all the critical user workflows all behave as expected."
+
+Test tools types:
+  - test launchers:
+      definition: are used to lanch you tests in the browser or Node.js
+      code: "npm install karma --save-dev"
+      examples:
+        - karma
+        - jasmine,
+        - jest
+        - testcafe
+        - cypress
+        - webdriverio
+  - testing structure providers:
+      definition: help you arrange/organize your tests in a readable and scalable way.
+      code: "describe('calculator', function() {
+               // describes a module with nested describe functions
+              describe('add', function() {
+              // specify the expected behavior
+              it('should add 2 numbers', function() {
+              //Use assertion functions to test the expected behavior
+              ...
+              })
+              })
+              })"
+      examples:
+        - mocha
+        - jasmine
+        - jest
+        - cucumber
+        - testcage
+        - cypress
+  - assertion functions:
+      definition: are used to check if a test returns what you expect it returns and if it throws an exception
+      code: "expect(foo).to.be.a('string')"
+      examples:
+        - chai
+        - jasmine
+        - jest
+        - unexpected
+        - testcafe
+        - cypress
+  - generate and display test progress and summary:
+      example:
+        - mocha
+        - jasmine
+        - jest
+        - karma
+        - testcafe
+        - cypress
+  - mocks, spies, and stubs:
+      definition: to simulate tests scenarios, isolate the tested part of the software from other parts, and attach to processes to see they work as expected
+      examples:
+        - sinon
+        - jasmine
+        - enxyme
+        - jest
+        - testdouble
+  - generate and compare snapshots:
+      definition: to make sure changes to data structures from previous test runs are intended by the user's code changes
+      exmpales:
+        - jest
+        - ava
+  - generate code coverage:
+      examples:
+        - istanbul
+        - jest
+        - blanket
+  - browser controllers:
+      definition: simulate user actions for functional tests.
+      examples:
+        - nightwatch
+        - nightmare
+        - phantom
+        - puppeteer
+        - testcafe
+        - cypress
+  - visual regression tools:
+      definition: are used to compare your site to its previous versions visually by using image comparison techniques.
+      examples:
+        - appllitools
+        - percy
+        - wraith
+        - webdrivervss
+

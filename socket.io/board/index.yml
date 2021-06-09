@@ -1,0 +1,4 @@
+steps:
+  - npm init -y
+  - npm install --save socket.io express
+  - create app.js

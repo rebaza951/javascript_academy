@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Board</title>
+</head>
+<body>
+    <canvas width="2000" height="2000" id="canvas"></canvas>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        var socket = io.connect();
+        socket.on('nuevo pixel', dibujar);
+
+        window.addEventListener("mousemove", function(e) {
+            let p = {
+                x: e.clientX,
+                y: e.clientY
+            }
+            dibujar(p)
+            socket.emit("pixel", p);
+        })
+        var context = document.getElementById('canvas').getContext('2d')
+        function dibujar(p){
+            context.fillRect(p.x, p.y, 5, 5);
+        }
+    </script>
+</body>
+</html>
