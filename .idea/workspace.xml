@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28d1c9e3-a731-4412-880d-3a99c31ea73d" name="Default Changelist" comment="add asynchronous examples">
+      <change afterPath="$PROJECT_DIR$/arrowFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desing patterns/observer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigms/OOP/Principles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigms/OOP/SOLID/pokemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigms/OOP/SOLID/theory.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1599439326" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="1fdgDFcaRD2RM76AB2mtPdxiyui" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/paradigms/OOP" />
+      <recent name="$PROJECT_DIR$/evolution" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28d1c9e3-a731-4412-880d-3a99c31ea73d" name="Default Changelist" comment="" />
+      <created>1596553261655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596553261655</updated>
+      <workItem from="1596553262967" duration="84000" />
+      <workItem from="1596577573856" duration="347000" />
+      <workItem from="1598146448061" duration="5497000" />
+      <workItem from="1598207193638" duration="1170000" />
+      <workItem from="1598210681397" duration="713000" />
+      <workItem from="1598235505496" duration="40000" />
+      <workItem from="1598281360693" duration="615000" />
+      <workItem from="1598290070490" duration="1646000" />
+      <workItem from="1598312490293" duration="2941000" />
+      <workItem from="1598368349764" duration="29000" />
+      <workItem from="1598411174414" duration="2227000" />
+      <workItem from="1598471035692" duration="24000" />
+      <workItem from="1599438415622" duration="1504000" />
+      <workItem from="1599530727071" duration="4521000" />
+      <workItem from="1599580543881" duration="75000" />
+      <workItem from="1599598587661" duration="24000" />
+      <workItem from="1602809257228" duration="1218000" />
+      <workItem from="1602954423149" duration="696000" />
+      <workItem from="1603558882513" duration="56000" />
+      <workItem from="1603558939711" duration="201000" />
+      <workItem from="1603559150461" duration="79000" />
+      <workItem from="1603909123233" duration="77000" />
+      <workItem from="1603911018572" duration="22000" />
+      <workItem from="1604463364346" duration="2276000" />
+      <workItem from="1604500628555" duration="330000" />
+    </task>
+    <task id="LOCAL-00001" summary="add asynchronous examples">
+      <created>1598155413362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598155413363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add asynchronous examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add asynchronous examples" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="644" y="331" width="622" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599438795843">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="644" y="331" width="622" height="415" key="#com.intellij.fileTypes.FileTypeChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1599438795843" />
+    <state x="1072" y="358" width="424" height="482" key="FileChooserDialogImpl" timestamp="1603911038860">
+      <screen x="0" y="27" width="3840" height="1196" />
+    </state>
+    <state x="743" y="298" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1599598609879" />
+    <state x="743" y="298" width="424" height="482" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1599438443108" />
+    <state x="743" y="318" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603909198542" />
+    <state x="1072" y="358" key="FileChooserDialogImpl/0.27.3840.1196@0.27.3840.1196" timestamp="1603911038860" />
+    <state x="743" y="441" width="424" height="482" key="FileChooserDialogImpl/1920.0.1920.1080/0.143.1920.1080@0.143.1920.1080" timestamp="1603559227959" />
+    <state x="449" y="175" key="SettingsEditor" timestamp="1598146590551">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="449" y="175" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598146590551" />
+    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1598155416532">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598155416532" />
+    <state x="834" y="400" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1598146615753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="834" y="400" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598146615753" />
+  </component>
+</project>
