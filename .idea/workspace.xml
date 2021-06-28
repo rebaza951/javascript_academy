@@ -6,15 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d1c9e3-a731-4412-880d-3a99c31ea73d" name="Default Changelist" comment="add asynchronous examples">
-      <change afterPath="$PROJECT_DIR$/arrowFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desing patterns/observer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigms/OOP/Principles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigms/OOP/SOLID/pokemon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigms/OOP/SOLID/theory.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJs/child_process/spawn_and_exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJs/child_process/spawn_and_exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/OOP/Paradigm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/OOP/Paradigm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/OOP/Principles.js" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/OOP/Principles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/OOP/SOLID/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/OOP/SOLID/pokemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/OOP/SOLID/theory.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/OOP/SOLID/theory.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/OOP/theory.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/OOP/theory.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/0. functional_programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/1. declarative_vs_imperative.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/1. declarative_vs_imperative.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/2. first_class_functions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/2. first_class_functions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/3. pure_functions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/3. pure_functions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/4. currying.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/4. currying.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/5. array_methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigms/Functional/5. array_methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigms/functional/index.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -59,16 +73,18 @@
     </layout>
   </component>
   <component name="ProjectId" id="1fdgDFcaRD2RM76AB2mtPdxiyui" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +126,29 @@
       <workItem from="1603911018572" duration="22000" />
       <workItem from="1604463364346" duration="2276000" />
       <workItem from="1604500628555" duration="330000" />
+      <workItem from="1623344993257" duration="249000" />
+      <workItem from="1623704249660" duration="8339000" />
+      <workItem from="1623777610090" duration="4664000" />
+      <workItem from="1623801321673" duration="8000" />
+      <workItem from="1623801352770" duration="20000" />
+      <workItem from="1623801466654" duration="3644000" />
+      <workItem from="1623855070524" duration="24000" />
+      <workItem from="1624047215264" duration="1098000" />
+      <workItem from="1624140179192" duration="693000" />
+      <workItem from="1624141328287" duration="3509000" />
+      <workItem from="1624287174596" duration="482000" />
+      <workItem from="1624295594538" duration="748000" />
+      <workItem from="1624316804147" duration="1187000" />
+      <workItem from="1624318197857" duration="801000" />
+      <workItem from="1624384623643" duration="131000" />
+      <workItem from="1624404355135" duration="7578000" />
+      <workItem from="1624464086592" duration="433000" />
+      <workItem from="1624504275830" duration="4125000" />
+      <workItem from="1624567218612" duration="1115000" />
+      <workItem from="1624635297486" duration="33000" />
+      <workItem from="1624660506556" duration="9924000" />
+      <workItem from="1624894978806" duration="364000" />
+      <workItem from="1624899313863" duration="1497000" />
     </task>
     <task id="LOCAL-00001" summary="add asynchronous examples">
       <created>1598155413362</created>
@@ -139,31 +178,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add asynchronous examples" />
     <option name="LAST_COMMIT_MESSAGE" value="add asynchronous examples" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="644" y="331" width="622" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599438795843">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="644" y="331" width="622" height="415" key="#com.intellij.fileTypes.FileTypeChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1599438795843" />
-    <state x="1072" y="358" width="424" height="482" key="FileChooserDialogImpl" timestamp="1603911038860">
-      <screen x="0" y="27" width="3840" height="1196" />
-    </state>
-    <state x="743" y="298" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1599598609879" />
-    <state x="743" y="298" width="424" height="482" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1599438443108" />
-    <state x="743" y="318" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603909198542" />
-    <state x="1072" y="358" key="FileChooserDialogImpl/0.27.3840.1196@0.27.3840.1196" timestamp="1603911038860" />
-    <state x="743" y="441" width="424" height="482" key="FileChooserDialogImpl/1920.0.1920.1080/0.143.1920.1080@0.143.1920.1080" timestamp="1603559227959" />
-    <state x="449" y="175" key="SettingsEditor" timestamp="1598146590551">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="449" y="175" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598146590551" />
-    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1598155416532">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598155416532" />
-    <state x="834" y="400" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1598146615753">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="834" y="400" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598146615753" />
   </component>
 </project>

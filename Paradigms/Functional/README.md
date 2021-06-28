@@ -10,3 +10,6 @@ The ability to pass and return functions is done through one of three concepts:
   - higher-order functions
   - currying.
 
+references:
+- https://hackernoon.com/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217
+- https://www.youtube.com/watch?v=e-5obm1G_FY
