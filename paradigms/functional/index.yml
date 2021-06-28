@@ -1,0 +1,7 @@
+references:
+  - https://hackernoon.com/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217
+  - https://www.youtube.com/watch?v=e-5obm1G_FY
+title: functional programming
+definition: it is a style of coding your code, like organizing.
+characteristics:
+  - do everything with functions
